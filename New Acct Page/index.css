@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.conta{
+    width: 500px;
+    margin:  0px auto 30px auto;
+}
+
+.conta .logo{
+    font-size: 65px;
+    color: #0866ff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: 10px 10px 10px -7px #0000001a, -10px -10px 10px -7px #0000001a;
+    border-radius: 4px;
+    padding: 30px 0px;
+}
+
+hr{
+    border-top: 1px solid #ccd0d5;
+    border-top-width: thin;
+    margin-bottom: 15px;
+}
+
+.header h2{
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 27px;
+    color: #1c1e21;
+}
+
+.header p{
+    text-align: center;
+    font-size: 16px;
+    color: #606770;
+    padding-bottom: 13px;
+    opacity: 0.8;
+}
+
+.second-base{
+    padding: 0px 20px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form input{
+    background-color: transparent;
+    border: 1px solid #dddfe2;
+    color: #ccd0d5;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 13px 15px;
+    width: 225px;
+    margin-bottom: 15px;
+    outline: none;
+    color: #000;
+}
+
+.birth{
+    width: 100%;
+}
+
+.birth p{
+    font-size: 13px;
+    color: #606770;
+    margin-bottom: 10px;
+}
+
+.birth_date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.birth select{
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.birth #date, #month{
+    margin-right: 10px;
+}
+
+.gender{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.gender p{
+    font-size: 13px;
+    color: #606770;
+    margin-bottom: 10px;
+}
+
+.gender .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+}
+
+.info #female, #male{
+    margin-right: 10px;
+}
+
+.info #male, #female, #custom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.email{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.email input{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #606770;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sign-up button{
+    padding: 10px 70px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+@media (max-width:430px){
+    .conta{
+        width: 400px; 
+    }
+    .second-base{
+        padding: 0px 10px;
+    }    
+    form input{
+        font-size: 14px;
+        padding: 10px 13px;
+        width: 160px;
+        margin-bottom: 15px;
+    }
+    .birth select{
+        padding: 7px 5px;
+    }
+    .sign-up button{
+        padding: 8px 65px;
+        font-size: 15px;
+    }
+    .conta{
+        width: 400px;
+        margin:  0px 30px 30px 30px;
+    }
+}
+
+
+@media (max-width:380px){
+    .conta{
+        width: 350px;
+    }
+    form input{
+        font-size: 15px;
+        width: 140px;
+    }
+    .conta .logo{
+        font-size: 55px;
+    }
+}
+
+
+@media (max-width:360px){
+    .conta{
+        width: 350px;
+        margin:  0px 30px 30px 30px;
+    }
+    form input{
+        font-size: 12px;
+        width: 117px;
+    }    
+    .conta .logo{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    .header h2{
+        font-size: 24px;
+    }
+    .header p{
+        font-size: 14px;
+    }
+    .birth select{
+        width: 100%;
+        padding: 8px 5px;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .info div{
+        width: 100%;
+        padding: 10px 6px;
+        font-size: 13px;
+    }
+    
+    .info #female, #male{
+        margin-right: 7px;
+    }
+    
+    .email{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .email input{
+        padding: 10px 6px;
+        font-size: 13px;
+    }
+    
+    .footer p{
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .sign-up{
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .sign-up button{
+        padding: 10px 60px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .sign-up a{
+        font-size: 16px;
+    }
+     
+}

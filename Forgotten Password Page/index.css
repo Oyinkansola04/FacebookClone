@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9ebee;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px -7px #0000001a, -10px -10px 10px -7px #0000001a;
+}
+
+.container  h2{
+    color: #0866ff;
+    padding: 13px 0px 10px 0px;
+    font-size: 27px;
+    font-weight: 600;
+    outline: none;
+}
+
+.container input{
+    padding: 10px;
+    width: 190px;
+    font-size: 15px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.container input:hover{
+    border: 1px solid #000;
+}
+
+.container input:focus{
+    outline: none;
+    border: 2px solid #0866ff;
+}
+
+.container button{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: #0866ff;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.container a{
+    font-size: 15px;
+    color: #0866ff;
+    text-decoration: none;
+}
+
+.container a:hover{
+    text-decoration: underline;
+}
+
+.box_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.box{
+    background-color: #fff;
+    padding: 20px 0px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px -7px #0000001a, -10px -10px 10px -7px #0000001a;
+}
+
+.box .logo{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccd0d5;
+}
+
+.logo h2{
+    font-size: 20px;
+}
+
+.box .info{
+    padding: 20px;
+    border-bottom: 1px solid #ccd0d5;
+}
+
+.info p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.info input{
+    padding: 16px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;    
+}
+
+.box .btn{
+    padding: 20px 20px 0px 20px;
+    text-align: right;
+}
+
+.btn button{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    background-color: #0866ff;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button.cancel{
+    color: black;
+    background-color: #ccd0d5;
+}
+
+@media (max-width:790px){
+    .container input{
+        width: 160px;
+    }
+    .container a{
+        font-size: 14px;
+        color: #0866ff;
+        text-decoration: none;
+    }
+    
+    .container a:hover{
+        text-decoration: underline;
+    }
+    
+}
+
+@media (max-width: 730px),(max-width:430px){
+    .box_part{
+        padding: 20px;
+    }
+    .container{
+        padding: 0px 10px;
+    }
+    .container h2{
+        font-size: 16px;
+    }
+
+    .container input{
+        width: 80px;
+        font-size: 11px;
+        padding: 6px;
+        border-radius: 5px;
+    }
+.container button{
+    padding: 6px;
+    font-size: 11px;
+}
+
+.container a{
+    font-size: 11px;
+    color: #0866ff;
+    text-decoration: none;
+}
+
+.box_part{
+    height:50vh;
+}
+
+}
+
+@media (max-width: 420px), (max-width:380px){
+    .container input{
+        width: 70px;
+        font-size: 8px;
+        padding: 6px;
+        border-radius: 3px;
+    }
+    .container button{
+        border-radius: 3px;
+        font-size: 8px;
+    }
+    .container a{
+        font-size: 8px;
+    }
+    .box{
+        padding: 12px 0px;
+    }
+    
+    .box .logo{
+        padding-left: 10px;
+        padding-bottom: 12px;
+    }
+    .logo h2{
+        font-size: 15px;
+    }
+    .box .info{
+        padding: 20px;
+    }
+    
+    .info p{
+        font-size: 15px;
+        margin-bottom: 15px;
+        line-height: 23px;
+    }
+    
+    .info input{
+        padding: 10px;
+        font-size: 15px;    
+    }
+    
+    .box .btn{
+        padding: 12px 12px 0px 12px;
+        text-align: right;
+    }
+    
+    .btn button{
+        padding: 8px 15px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .box_part{
+        height:50vh;
+    }
+}
+
+@media (max-width: 360px), (max-width:330px) {
+    .container h2{
+        font-size: 13px;
+    }
+    .container input{
+        width: 60px;
+        font-size: 7px;
+        padding: 4px;
+        margin-right: 2px;
+    }
+    .container button{
+        padding: 4px;
+        font-size: 7px;
+    }
+    .container a{
+        font-size: 7px;
+    }
+    .info p{
+        font-size: 12px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    } 
+    .info input{
+        padding: 8px;
+        font-size: 13px;    
+    }
+    .btn button{
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+}
